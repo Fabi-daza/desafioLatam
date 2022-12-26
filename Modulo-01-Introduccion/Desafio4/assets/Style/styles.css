@@ -1,0 +1,69 @@
+:root{
+    --green:#28A745;
+    --gray:#707070;
+    --black:#212529;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.fondo{
+    background-color: var(--green);
+}
+.logo img{
+    width: 7.16rem;
+    height: 2.08rem;
+}
+.card-img-top{
+    height: 13.99rem;
+}
+.card{
+    width: 23.16rem;
+    height: 31.58rem;
+}
+.card-title{
+    font-size: 1.66rem;
+    font-weight: 300;
+    color: var(--black);
+}
+.card-text{
+    font-size: 1.33rem;
+    font-weight: 300;
+    color:var(--gray);
+}
+.text-adress{
+    font-size: 1.08rem;
+    font-weight: 300;
+    color:var(--gray);
+}
+.normal-price{
+    font-size: 1.33rem;
+    font-weight: 300;
+    color: var(--gray);
+}
+.sale-price{
+    font-size: 1.66rem;
+    font-weight: 500;
+    color:var(--green);
+}
+form{
+    background-color: var(--green);
+}
+.form-title{
+    font-size: 1.75rem;
+    font-weight: 500;
+}
+.button-form {
+    font-size: 1.33rem;
+    font-weight: 500;
+    color: var(--black);
+}
+.footer-img img{
+    width: 6.83rem;
+    height: 2rem;
+}
+.footer-text{
+    font-size: 1.33rem;
+    font-weight: 300;
+    color: var(--gray);
+    text-align: center;
+}

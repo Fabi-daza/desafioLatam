@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: #000000;
+}
+.header{
+    height: 73px;
+}
+.header h1{
+    color: #ffffff;
+    padding: 7px 0px;
+    font-size: 50px;
+    font-weight: 500;
+    width: 221px;
+    margin: 0 auto;
+}
+.hero {
+    background-image: url("../img/iguana_1.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 727px;
+    margin: 0px;
+    width: 100%;
+}
+.description{
+    height: 348px;
+    background-color: #000000;
+    width: 100%;
+}
+.container-description{
+    width: 980px;
+    margin: 0 auto;
+}
+.text-description {
+    color: #ffffff;
+    text-align: left;
+    margin-right: 106px;
+    padding-top: 75px;
+    font-weight: lighter;
+    width: 475px;
+    height: 197px;
+    float: left;
+}
+.img-description {
+    float: left;
+    padding-top: 45px;
+}
+.img-description img{
+    width: 399px;
+    height: 237px;
+}
+.features{
+    height: 348px;
+    background-color: #1e1a13;
+    width: 100%;
+}
+.features h2{
+    font-size: 40px;
+    font-weight: 500;
+    text-align: left;
+    padding-top: 75px;
+    padding-left: 463.5px;
+    color: #ffffff;
+}
+.icons-features{
+    padding-left: 301px;
+    padding-top: 50px;
+    padding-bottom: 74px;
+}
+.feature1{
+    display: inline-block;
+    color: #ffffff;
+    padding-right: 182px;
+    text-align: center;
+}
+h3{
+    font-size: 24px;
+    font-weight: 300;
+}
+.fa-eye{
+    font-size: 36.64px;
+    padding-bottom: 16.36px;
+}
+.feature2{
+    display: inline-block;
+    color: #ffffff;
+    padding-right: 145.88px;
+    text-align: center;
+}
+.feature3{
+        display: inline-block;
+        color: #ffffff;
+        text-align: center;
+}
+.fa-hand-peace{
+    font-size: 55.8px;
+    padding-bottom: 16.2px;
+}
+.fa-paintbrush{
+    font-size: 48.61px;
+    padding-bottom: 16px;
+}
+.pictures{
+    background-color: #000000;
+    width: 100%;
+}
+.container-pictures{
+    display: inline-block;
+    height: 202px;
+    background-color: #000000;
+    padding: 73px 150px 73px 150px;
+}
+.container-pictures img{
+    width: 316px;
+    height: 202px;
+}
+footer{
+    background-color: #1e1a13;
+    height: 102px;
+    width: 100%;
+}
+footer p{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: left;
+    letter-spacing: 0px;
+    padding: 39px 299px;
+    width: 682px;
+}
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
