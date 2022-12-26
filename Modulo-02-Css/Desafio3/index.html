@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <title>Media Queries</title>
+</head>
+
+<body>
+    <div id="layout">
+        <header></header>
+        <nav>
+            <ul class="links-menu">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+            <button class="ham">
+                <span class="br-1"></span>
+                <span class="br-2"></span>
+                <span class="br-3"></span>
+            </button>
+        </nav>
+        <section class="filter">
+            Filtrar por:
+            <select name="filter-anime" id="fltr-anime">
+                <option value="select">Anime</option>
+                <option value="select">One Piece</option>
+                <option value="select">HunterxHunter</option>
+            </select>
+            <select name="filter-size" id="fltr-size">
+                <option value="select">Tamaño</option>
+                <option value="select">16 cm</option>
+                <option value="select">21 cm</option>
+            </select>
+        </section>
+        <aside>
+            <ul class="menu-sidebar">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </aside>
+        <main>
+            <section class="products">
+                <div class="box">
+                    <figure>
+                        <img id="luffy" src="./assets/img/Luffy.png" alt="Luffy">
+                    </figure>
+                    <h3>Figura de Luffy 21 cm</h3>
+                    <span class="normal-price">$21.990.-</span>
+                    <button class="btn-product">Comprar</button>
+                </div>
+                <div class="box">
+                    <figure>
+                        <img id="Zoro" src="./assets/img/zoro.jpg" alt="Zoro">
+                    </figure>
+                    <h3>Figura de Zoro 21 cm</h3>
+                    <span class="normal-price">$21.990.-</span>
+                    <button class="btn-product">Comprar</button>
+                </div>
+                <div class="box">
+                    <figure>
+                        <img id="Nami" src="./assets/img/Nami.jpg" alt="Nami">
+                    </figure>
+                    <h3>Figura de Nami 21 cm</h3>
+                    <span class="normal-price">$21.990.-</span>
+                    <button class="btn-product">Comprar</button>
+                </div>
+                <div class="box">
+                    <figure>
+                        <img id="Boa" src="./assets/img/Boa.jpg" alt="Boa Hancock">
+                    </figure>
+                    <h3>Figura Boa Hancock 21 cm</h3>
+                    <span class="normal-price">$21.990.-</span>
+                    <button class="btn-product">Comprar</button>
+                </div>
+                <div class="box">
+                    <figure>
+                        <img id="Chrollo" src="./assets/img/Chrollo.jpg" alt="Chrollo">
+                    </figure>
+                    <h3>Figura de Chrollo 16cm</h3>
+                    <span class="normal-price">$15.990.-</span>
+                    <button class="btn-product">Comprar</button>
+                </div>
+                <div class="box">
+                    <figure>
+                        <img id="GON" src="./assets/img/gon.jpg" alt="Gon">
+                    </figure>
+                    <h3>Figura de gon 16cm</h3>
+                    <span class="normal-price">$15.990.-</span>
+                    <button class="btn-product">Comprar</button>
+                </div>
+            </section>
+            <div class="pagination">
+                <a href="#luffy"><<</a>
+                <a href="#luffy">1</a>
+                <a href="#luffy">2</a>
+                <a href="#luffy">3</a>
+                <a href="#luffy">>></a>
+            </div>
+        </main>
+        <footer>
+            <div class="social-icons">
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 30 30">
+                    <path
+                        d="M15,3C8.373,3,3,8.373,3,15c0,6.016,4.432,10.984,10.206,11.852V18.18h-2.969v-3.154h2.969v-2.099c0-3.475,1.693-5,4.581-5 c1.383,0,2.115,0.103,2.461,0.149v2.753h-1.97c-1.226,0-1.654,1.163-1.654,2.473v1.724h3.593L19.73,18.18h-3.106v8.697 C22.481,26.083,27,21.075,27,15C27,8.373,21.627,3,15,3z">
+                    </path>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 50 50">
+                    <path
+                        d="M 16 3 C 8.8324839 3 3 8.8324839 3 16 L 3 34 C 3 41.167516 8.8324839 47 16 47 L 34 47 C 41.167516 47 47 41.167516 47 34 L 47 16 C 47 8.8324839 41.167516 3 34 3 L 16 3 z M 16 5 L 34 5 C 40.086484 5 45 9.9135161 45 16 L 45 34 C 45 40.086484 40.086484 45 34 45 L 16 45 C 9.9135161 45 5 40.086484 5 34 L 5 16 C 5 9.9135161 9.9135161 5 16 5 z M 37 11 A 2 2 0 0 0 35 13 A 2 2 0 0 0 37 15 A 2 2 0 0 0 39 13 A 2 2 0 0 0 37 11 z M 25 14 C 18.936712 14 14 18.936712 14 25 C 14 31.063288 18.936712 36 25 36 C 31.063288 36 36 31.063288 36 25 C 36 18.936712 31.063288 14 25 14 z M 25 16 C 29.982407 16 34 20.017593 34 25 C 34 29.982407 29.982407 34 25 34 C 20.017593 34 16 29.982407 16 25 C 16 20.017593 20.017593 16 25 16 z">
+                    </path>
+                </svg>
+            </div>
+            <h5>Todos los derechos reservados</h5>
+        </footer>
+    </div>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
