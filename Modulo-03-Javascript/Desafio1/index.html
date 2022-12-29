@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap" rel="stylesheet">
+    <title>Desafío 1 Javascript</title>
+</head>
+
+<body>
+    <div class="card">
+        <h1 id="name">Gabinete Gamer Fantech Aero Cg80</h1>
+        <img class="img-product" src="./assets/img/case-white1.png" alt="case-white">
+        <h2>Color</h2>
+        <select name="Color" id="color-selector">
+            <option value="white" id="white">White</option>
+            <option value="pink" id="pink">Pink</option>
+        </select>
+        <h3>Precio: $<span class="price" id="price">54990</span></h3>
+        <input type="number" id="amount">
+        <input class="btn" id="btn" type="button" value="Añadir al carro">
+    </div>
+    <div class="cart">
+        <h2>Detalle de tu Pedido</h2>
+        <span>Producto: <span id="title"></span></span>
+        <div class="color-selector">
+            <span>Color:</span>
+            <span class="color-picked"></span>
+        </div>
+        <span>Cantidad: <span id="cantidad"> </span></span>
+        <span>Total a pagar: <span id="precio"></span>
+        </span>
+    </div>
+
+
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

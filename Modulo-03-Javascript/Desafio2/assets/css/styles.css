@@ -1,0 +1,143 @@
+body{
+    background-color: #ebebeb;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+}
+/*Comienzo del index*/
+
+.img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+.img img{
+    width: 300px;
+    height: 300px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+.buttons button{
+    margin: 5px 0px;
+    width: 300px;
+    height: 30px;
+    background-color: #1b04b6;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+.buttons a button{
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.buttons a button:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.8);
+
+}
+/* Fin del Index */
+
+/*Comienza parte 1 del desafío */
+.sin-borde{
+    margin: 20px auto;
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    background-image: url(../img/ACE.jpg);
+    cursor: pointer;
+
+}
+.con-borde{
+    margin: 20px auto;
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 2px solid red;
+    background-image: url(../img/ACE-2.jpg);
+    cursor: pointer;
+}
+.texto-cambio-borde{
+    text-align: center;
+}
+
+/*Comienza parte 2 Desafío */
+.titulo-stickers{
+
+    text-align: center;
+}
+.container-stickers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sticker-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    margin: 10px 20px 0px 20px;
+    padding: 10px;
+}
+.sticker-img{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.3);
+}
+.texto-resultado{
+    text-align: center;
+    font-size: 1.3rem;
+}
+.buttons .verificar-stickers{
+    background-color: green;
+    color: #ebebeb;
+    font-size: 1.4rem;
+    margin-bottom: 30px;
+    margin-top: 0;
+    height: 50px;
+}
+/* Fin parte 2 Desafío*/
+/*Inicio parte 3 Desafío */
+.selector-password{
+    display: flex;
+    justify-content: center;
+}
+.selector-password select{
+    margin: 5px;
+    height: 30px;
+    width: 50px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.verificar-pass{
+    background-color: green;
+    color: #ffffff;
+    height: 50px;
+    width: 200px;
+    font-size: 1.2rem;
+    border-radius: 25px;
+    display: block;
+    margin: 20px auto;
+    cursor: pointer;
+}
+.Resultado-Password{
+    text-align: center;
+}
+/* Fin parte 3 Desafío*/

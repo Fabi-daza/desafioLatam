@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap" rel="stylesheet">
+    <title>Selección de Sticker</title>
+</head>
+
+<body>
+    <h1 class="titulo-stickers">Selecciona tus stickers Favoritos (10 máximo)</h1>
+    <div class="container-stickers">
+        <div class="sticker-card">
+            <img class="sticker-img" src="./assets/img/STICKER_LUFFY.jpg" alt=""> 
+            <input type="number" id="sticker-1" min="0" pattern="^[0-9]+">
+        </div>
+        <div class="sticker-card">
+            <img class="sticker-img" src="./assets/img/STICKER_CHOPPER.jpg" alt=""> 
+            <input type="number" id="sticker-2" min="0" pattern="^[0-9]+">
+        </div>
+        <div class="sticker-card">
+            <img class="sticker-img" src="./assets/img/STICKER_ACE.jpg" alt=""> 
+            <input type="number" id="sticker-3" min="0" pattern="^[0-9]+">
+        </div>
+    </div>
+    <p class="texto-resultado" id="resultado-suma"></p>
+    <div class="buttons">
+        <button class="verificar-stickers" id="verficar-stickers">
+            Comprar Stickers
+        </button>
+        <a href="./index.html"><button>Volver al Home</button></a>
+        <a href="./border.html"><button>Cambio de Borde</button></a>
+        <a href="./password.html"><button>Ingreso de Password</button></a>
+    </div>
+    <script src="./assets/js/main2.js">
+    </script>
+</body>
+
+</html>
