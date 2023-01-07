@@ -1,0 +1,56 @@
+[
+    {
+        "nombre": "Laguna del mar",
+        "precio": 2490,
+        "tipo": "Departamento en Venta",
+        "descripcion": "Vive lo mejor de la Serena",
+        "dormitorios": 1,
+        "superficie": 40,
+        "src": "./assets/img/laguna_del_mar.jpg"
+    },
+    {
+        "nombre": "Condominio los Nogales",
+        "precio": 4480,
+        "tipo": "Casa en Venta",
+        "descripcion": "Ven a vivir la Naturaleza",
+        "dormitorios": 3,
+        "superficie": 80,
+        "src": "./assets/img/condominio_los_nogales.jpg"
+    },
+    {
+        "nombre": "Edificio WM",
+        "precio": 3330,
+        "tipo": "Departamento en venta",
+        "descripcion": "Estilo Urbano y Confortable",
+        "dormitorios": 2,
+        "superficie": 45,
+        "src": "./assets/img/edificio_wm.jpg"
+    },
+    {
+        "nombre": "Rodrigo de Araya",
+        "precio": 3282,
+        "tipo": "Departamento en venta",
+        "descripcion": "Moderno e Innovador",
+        "dormitorios": 3,
+        "superficie": 60,
+        "src": "./assets/img/siena_rodrigo_de_araya.jpg"
+    },
+    {
+        "nombre": "Condominio Kaiken",
+        "precio": 8450,
+        "tipo": "Casa en Venta",
+        "descripcion": "All inclusive en Santa Elena",
+        "dormitorios": 3,
+        "superficie": 120,
+        "src": "./assets/img/condominio_kaiken.jpg"
+    },
+    {
+        "nombre": "Aguas Claras",
+        "precio": 11990,
+        "tipo": "Casa en Venta",
+        "descripcion": "Fluidez y sofisticación",
+        "dormitorios": 4,
+        "superficie": 160,
+        "src": "./assets/img/aguas_claras.jpg"
+    }
+]

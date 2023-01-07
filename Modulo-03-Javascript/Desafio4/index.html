@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <title>Inmobiliaria</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="#"><img src="./assets/img/logo__large.png" alt=""></a>
+        </div>
+        <div class="menu">
+            <a href="#">Crea tu cuenta</a>
+            <a href="#">Ingresa</a>
+            <a href="#">Ayuda</a>
+            <a href="#">Publica tu propiedad</a>
+        </div>
+    </header>
+    <section class="hero"></section>
+    <section class="search-bar">
+        <div class="superficie">
+            <div class="title">
+                <p>Superficie</p>
+            </div>
+            <div class="inputs">
+                <input type="number" placeholder="Desde" id="s-desde">
+                <input type="number" placeholder="Hasta" id="s-hasta">
+            </div>
+        </div>
+        <div class="dormitorios" >
+            <div class="title">
+                <p>N° de dormitorios</p>
+            </div>
+            <div class="inputs">
+                <input type="number" placeholder="Desde" id="dormitorios">
+            </div>
+        </div>
+        <div class="buttons">
+            <button id="buscar">Buscar</button>
+        </div>
+    </section>
+    <section class="title">
+        <h1>Encuentra casas y departamentos en venta</h1>
+        <h2>Resultados encontrados: <span id="total"></span> </h2>
+    </section>
+    <main class="main-box" id="main">
+    </main>
+    <footer>
+
+    </footer>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
