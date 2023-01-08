@@ -10,8 +10,6 @@ fetch('../assets/js/dptos.json')
     const buttonBuscar = document.getElementById("buscar")
     const textTotal = document.getElementById("total")
 
-    var total
-
     function setTotal(array){
         textTotal.innerText = array.length
     }
@@ -35,12 +33,10 @@ fetch('../assets/js/dptos.json')
         let articles = dptosHTML.join("")
         main.innerHTML = articles
     }
-
     function init(){
         alterMain(dptos)
         setTotal(dptos)
     }
-
     function filterByRooms(array){
         numCuartos = inputDormitorios.value
         if(!numCuartos){
@@ -50,24 +46,21 @@ fetch('../assets/js/dptos.json')
         arrayFilter = array.filter(val => val.dormitorios === +numCuartos)
         return arrayFilter
     }
-
     function filterByMeters(array){
         metersDesde = inputSupDesde.value
         metersHasta = inputSupHasta.value
         if(!metersHasta || !metersDesde){
-            alert("no rellenaste todos los campos de metros!!!")
+            alert("Debes ingresar el valor de la superficie")
             return null
         }
         arrayFilter = array.filter(val => val.superficie >= +metersDesde && val.superficie <= +metersHasta)
         return arrayFilter
     }
-
     buttonBuscar.addEventListener('click',function(){
         finalArray = filterByRooms(dptos) != null ? filterByRooms(dptos) : dptos
         finalArray = filterByMeters(finalArray) != null ? filterByMeters(finalArray) : finalArray
         alterMain(finalArray)
         setTotal(finalArray)
     })
-
     init()
 })
