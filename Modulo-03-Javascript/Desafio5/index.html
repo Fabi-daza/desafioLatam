@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <title>Desafio 5</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>To do List</h1>
+        </div>
+        <div class="inputs">
+            <input class="input-task" id="input-task" type="text" placeholder="Agrega una nueva tarea">
+            <input class="btn" id="btn" type="button" value="Agregar">
+        </div>
+        <div class="results">
+            <div class="counter">
+                <p>Total: <span id="total">0</span></p>
+                <p>Realizadas: <span id="check">0</span></p>
+            </div>
+            <div class="data">
+                <table>
+                    <thead>
+                        <tr>
+                            <th align="center" scope="col">ID</th>
+                            <th align="center" scope="col">Tarea</th>
+                            <th align="center" scope="col">Completada</th>
+                            <th align="center" scope="col">Eliminar</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tasks">
+                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
