@@ -1,0 +1,18 @@
+:root{
+  --Primary: #000000;
+  --Secondary: #1d42e9;
+  --Background: #ebebeb;
+}
+.titulo{
+  text-align: center;
+  color: var(--Primary);
+}
+.card{
+  min-height: 750px;
+  margin: 10px;
+  box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.3);
+}
+.card img{
+  height: 300px;
+  width: 300px;
+}
