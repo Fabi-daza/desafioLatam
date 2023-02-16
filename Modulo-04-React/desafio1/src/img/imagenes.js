@@ -2,7 +2,7 @@ import killua from "../img/killua.jpg"
 import kakashi from "../img/kakashi.jfif"
 import ace from "../img/ace.jpg"
 
-export default [
+const imagenes = [
     {
         "title": "Killua Zoldyck",
         "img": killua,
@@ -19,3 +19,5 @@ export default [
         "description": "Portgas D. Ace (ポートガス・D・エース Pōtogasu Dī Ēsu?),[8] nacido como Gol D. Ace (ゴール・D・エース Gōru D. Ēsu?), y apodado Ace Puño de Fuego (火拳のエース Hiken no Ēsu?), fue el hermano mayor jurado de Luffy y Sabo,[3][9] y el hijo biológico del difunto Rey de los Piratas, Gol D. Roger, y Portgas D. Rouge.[10] Ace fue adoptado por Monkey D. Garp, como había pedido el mismo Roger antes de su ejecución. También fue el comandante de la 2º división de los Piratas de Barbablanca[4] y antiguo capitán de los Piratas Spade.[5]"
     }
 ]
+
+export default imagenes
